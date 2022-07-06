@@ -1,0 +1,192 @@
+
+    body{
+        font-family: 'Mingzat', sans-serif;
+        margin: 0;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        padding: 5px 20px;
+        background-color: red;
+        border-radius: 5px;
+    }
+    /* banner sec strat */
+#banner{
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.banner-container{
+    color: white;
+     text-align: center;
+     padding-top: 20px;
+    
+
+}
+.banner-container h1{
+    font-size: 3rem;
+    
+}
+.p{
+    text-align: center;
+    padding-right: 10px;
+}
+/* banner sec end */
+/* donet sec strat */
+#donet{
+    text-align: center;
+    justify-content: center;
+    padding-top: 5%;
+}
+#donet h1{
+    font-size: 3rem;
+}
+.card{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+.card p{
+    background-color: antiquewhite;
+    color: gray;
+    font-size: 1.5rem;
+      padding: 40px;
+    margin-right: 15px;
+}
+#card-p{
+    color: red;
+    border: 2px solid red;
+}
+/* donet sec end */
+/* other-amount sec strat */
+.other-amount p{
+    padding: 10px 0px;
+    font-weight: 200;
+    color: gray;
+}
+/* other-amount sec end*/
+/* donetion-plan sec strat */
+#donetin-plan {
+    padding-top: 10px;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+}
+#donetion-cards{
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 100px;
+    padding-left: 8%;
+    
+}
+.cards{
+    display: flex;
+}
+.card-dtail{
+    width: 30%; 
+    background-color: antiquewhite;
+    margin-right: 15px;
+    
+}
+.card-dtail h2{
+    font-size: 2rem;
+}
+.card-dtail p{
+    color: gray;
+}
+/* donetion-plan sec end */
+/* servive sec strat */
+#survive{
+   display: flex;
+   margin-bottom: 50px;
+   margin-left:50px;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 90%;
+    height: 100hv;
+    margin-right: 20px;
+}
+.half-width h1{
+    font-size: 2.5rem;
+}
+.half-width p{
+    background-color: palegoldenrod;
+}
+/* servive sec end */
+/* update sec strat */
+
+#update{
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 200px;
+    width: 80%;
+    height: 80vh;
+    margin: 0 auto;
+}
+#update h1{
+    font-size: 3rem;
+}
+#update p{
+    color: gray;
+    padding-bottom: 10px;
+    
+}
+
+form{
+    margin-top: 40px;
+    margin-bottom: 200px;
+    padding: 50px 0px;
+    text-align: center;
+    justify-content: center;
+    background-color: bisque;
+    display: flex;
+    
+   
+}
+
+form input{
+    background-color: gray;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 300px;
+    font-size: 1.5rem;
+    color:wheat;
+    border-bottom-left-radius: 5px;
+}
+form button{
+    background: red;
+    outline: none;
+    border: none;
+    height: 42px;
+    width: 100px;
+    color: wheat;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}
+/* update sec end */
+footer{
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(24, 0, 0);
+    height: 200px;
+}
+footer h2{
+    color: brown;
+    font-family: 'satisfy',cursive;
+    font-size: 2rem;
+    padding-top: 20px;
+}
+footer p{
+    color: antiquewhite;
+    font-family: 'satisfy',cursive;
+    padding: 10px 0px;
+    
+}
