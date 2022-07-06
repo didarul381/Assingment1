@@ -67,6 +67,11 @@
     font-weight: 200;
     color: gray;
 }
+hr{
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
 /* other-amount sec end*/
 /* donetion-plan sec strat */
 #donetin-plan {
@@ -89,6 +94,7 @@
     width: 30%; 
     background-color: antiquewhite;
     margin-right: 15px;
+    padding-left: 5px;
     
 }
 .card-dtail h2{
